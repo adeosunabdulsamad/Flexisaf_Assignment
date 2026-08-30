@@ -48,7 +48,7 @@ The frontend application is located inside the `FRONTEND` directory.
 
 Before running the project, make sure you have the following installed:
 
-* [Node.js](https://nodejs.org/)
+* [Node 22.12+](https://nodejs.org/)
 * npm (installed automatically with Node.js)
 
 You can verify your installation by running:
