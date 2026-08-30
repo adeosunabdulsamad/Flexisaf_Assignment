@@ -1,57 +1,183 @@
-# ES6 Features Demonstration
+# Project Name
 
-This project demonstrates various ES6 features using a simple HTML file. The features showcased include `let` and `const` for variable declarations, arrow functions, array methods (`map`, `filter`, `reduce`, `forEach`), object manipulation, destructuring, and template literals.
+A web application currently under development.
 
-## File Structure
+The project is in its early stage. At the moment, the frontend has been initialized using **Vite** with **Vanilla JavaScript**. Additional features and functionality will be added as development progresses.
 
-- `index.html`: The main HTML file that includes the demonstration of ES6 features.
+---
 
-## Features Demonstrated
+## Current Status
 
-1. **Scope, let, and const**:
-    - `const` is used for immutable variables.
-    - `let` is used for mutable variables.
+This project is currently in the initial setup phase.
 
-2. **Arrow Functions**:
-    - Demonstrates the use of arrow functions for concise function expressions.
+### Currently Available
 
-3. **Array Methods**:
-    - `map`: Creates a new array with the results of calling a provided function on every element.
-    - `filter`: Creates a new array with all elements that pass the test implemented by the provided function.
-    - `reduce`: Executes a reducer function on each element of the array, resulting in a single output value.
-    - `forEach`: Executes a provided function once for each array element.
+* Vite project setup
+* Vanilla JavaScript frontend
+* Basic frontend development environment
 
-4. **Object Manipulation**:
-    - Adding new properties to an object.
-    - Using destructuring to extract properties from an object.
+### Planned
 
-5. **Template Literals**:
-    - Using template literals for string interpolation.
+* Application features
+* User interface components
+* Backend integration
+* Additional functionality and improvements
 
-## How to Run
+---
 
-1. Open the `index.html` file in a web browser.
-2. The browser will display the results of the ES6 features demonstration.
+## Project Structure
 
-## Example Output
+```text
+project-root/
+│
+├── FRONTEND/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── ...
+│
+└── README.md
+```
 
-The output will include:
-- The title of the demonstration.
-- The initial counter value and its incremented value.
-- The squares of an array of numbers.
-- The even numbers from the array.
-- The sum of the array.
-- The doubled numbers from the array.
-- User details extracted using destructuring and displayed using template literals.
+The frontend application is located inside the `FRONTEND` directory.
 
-## Author
+---
 
-- [Abdulsamad Adeosun](https://github.com/adeosunabdulsamad)
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+* [Node 22.12+](https://nodejs.org/)
+* npm (installed automatically with Node.js)
+
+You can verify your installation by running:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/adeosunabdulsamad/Flexisaf_Assignment.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd Flexisaf_Assignment
+```
+
+### 3. Navigate to the Frontend Directory
+
+```bash
+cd FRONTEND
+```
+
+### 4. Install Dependencies
+
+```bash
+npm install
+```
+
+### 5. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Vite will start a local development server and display a URL similar to:
+
+```text
+http://localhost:5173
+```
+
+Open the displayed URL in your browser.
+
+---
+
+## Available Commands
+
+Run these commands from inside the `FRONTEND` directory.
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## Technology Stack
+
+The project currently uses:
+
+* **Vite**
+* **Vanilla JavaScript**
+* **HTML**
+* **CSS**
+
+---
+
+## Contributing
+
+The project is actively being developed.
+
+If you are contributing:
+
+1. Create a new branch.
+2. Make your changes.
+3. Test your changes locally.
+4. Commit your changes.
+5. Push your branch.
+6. Create a pull request.
+
+Example:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+---
+
+## Development Notes
+
+* The application is currently in the early development stage.
+* Features and project structure may change as development continues.
+* Developers should regularly pull the latest changes before starting work.
+
+To update your local repository:
+
+```bash
+git pull origin main
+```
+
+---
 
 ## License
 
-This project is licensed under the MIT License.
+This project is currently under development. License information will be added later.
 
-## GitHub
+---
 
-You can find the project on GitHub: [Flexisaf Week 1](https://github.com/adeosunabdulsamad/Flexisaf-Week-1)
+## Development
+
+Built and maintained by the project development team.
